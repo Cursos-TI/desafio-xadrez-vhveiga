@@ -37,7 +37,7 @@ int main()
     
     for(r = 0; r < 8; r++)
     {
-        printf("Direita\n");
+        printf("Esquerda\n");
     }
 
     //Variável para o movimento do cavalo
