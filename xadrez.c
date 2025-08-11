@@ -2,7 +2,7 @@
 
 void torre(int t){
     if(t>0){
-        printf("Direita\n"),
+        printf("Direita\n");
         torre(t-1);
     }
 }
@@ -11,7 +11,7 @@ void bispo(int b){
     if(b>0){
         for (int b1 = 1; b1 > 0; b1--){
             printf("Cima, ");
-            for (int b2 = 1; b2 > 0; b2--){
+            for (int b2 = 2; b2 > 1; b2--){
                 printf("Direita\n");
             }
 
